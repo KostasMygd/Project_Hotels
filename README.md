@@ -4,6 +4,6 @@
 
 ## Οδηγίες Εγκατάστασης
 1. Κατεβάστε το repository.
-2. Βρείτε το αρχείο `.sql` μέσα στον φάκελο `rooms` και κάντε το import στο XAMPP.
-3. Το project τρέχει στη διαδρομή: `localhost/Project_Hotels/rooms`
-4. Ανοιξτε την αρχικη σελιδα mainPage.html
+2. Τοποθετηστε το φακελο `rooms` μεσα στον φακελο `htdocs`
+3. Βρείτε το αρχείο `.sql` μέσα στον φάκελο `rooms` και κάντε  import το database `hotels`στο `phpmyadmin`.
+4. Ανοιξτε την αρχικη σελιδα `mainPage.html` μεσα στο φακελο `rooms`
