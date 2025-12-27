@@ -43,9 +43,11 @@ $rooms = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <div class="col-md-4">
       <h4>Room <?= htmlspecialchars($room['room_number']) ?></h4>
-      <p><?= htmlspecialchars($room['type']) ?></p>
-      <p><?= htmlspecialchars($room['bed']) ?></p>
-      <p class="fw-bold text-primary"><?= $room['price'] ?>€ / night</p>
+     <ul>
+      <li><p><?= htmlspecialchars($room['type']) ?></p></li>
+      <li><p><?= htmlspecialchars($room['bed']) ?></p></li>
+      <li><p class="fw-bold text-primary"><?= $room['price'] ?>€ / night</p></li>
+	  </ul>
     </div>
 
     <div class="col-md-4 text-md-end">
@@ -65,3 +67,4 @@ $rooms = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 </body>
 </html>
+
